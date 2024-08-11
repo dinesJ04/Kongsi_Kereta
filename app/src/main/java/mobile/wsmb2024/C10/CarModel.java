@@ -1,0 +1,21 @@
+package mobile.wsmb2024.C10;
+
+public class CarModel {
+    public String icnum;
+    public String model;
+    public String capacity;
+    public String number;
+    public String access;
+
+    public CarModel(){
+
+    }
+
+    public CarModel(String icnum, String model, String capacity, String number,  String access) {
+        this.icnum = icnum;
+        this.model = model;
+        this.capacity = capacity;
+        this.number = number;
+        this.access = access;
+    }
+}

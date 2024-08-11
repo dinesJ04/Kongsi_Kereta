@@ -46,7 +46,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="60sp"
             android:layout_marginRight="60sp"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
 
         <TextView
             android:id="@+id/textView27"
@@ -63,7 +64,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="60sp"
             android:layout_marginRight="60sp"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
 
         <TextView
             android:id="@+id/textView29"
@@ -80,7 +82,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="60sp"
             android:layout_marginRight="60sp"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView31"
@@ -97,7 +100,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="60sp"
             android:layout_marginRight="60sp"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
 
         <TextView
             android:id="@+id/textView33"
@@ -114,7 +118,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="60sp"
             android:layout_marginRight="60sp"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
 
         <TextView
             android:id="@+id/textView35"
@@ -131,7 +136,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="60sp"
             android:layout_marginRight="60sp"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
 
         <Button
             android:id="@+id/btnBack"

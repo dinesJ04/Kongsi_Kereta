@@ -40,7 +40,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/etCarModel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -70,7 +70,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/etCarNum"
+            android:id="@+id/etOrigin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -106,7 +106,7 @@
         </RadioGroup>
 
         <Button
-            android:id="@+id/btnSave"
+            android:id="@+id/btnSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100sp"

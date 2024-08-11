@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Kongsi_Kereta"
         tools:targetApi="31">
         <activity
+            android:name=".RideInfoActivity"
+            android:exported="false" />
+        <activity
             android:name=".RideInfo"
             android:exported="false" />
         <activity
@@ -28,13 +31,13 @@
             android:name=".FirstPage"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".RegisterLogin"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

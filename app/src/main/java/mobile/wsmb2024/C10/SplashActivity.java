@@ -1,5 +1,6 @@
 package mobile.wsmb2024.C10;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
@@ -16,12 +17,16 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-//       new Handler.postDelayed(new Runnable() {
-//           @Override
-//           public void run() {
-//
-//           }
-//       },2000);
+
+       new Handler().postDelayed(new Runnable() {
+           @Override
+           public void run() {
+               Intent i = new Intent(getApplicationContext(), MainActivity.class);
+               startActivity(i);
+               finish();
+           }
+       },2000);
+
 
 
     }
