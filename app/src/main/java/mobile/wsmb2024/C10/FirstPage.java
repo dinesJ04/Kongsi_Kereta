@@ -56,7 +56,7 @@ public class FirstPage extends AppCompatActivity {
         btnRideInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), RideInfoActivity.class);
+                Intent i = new Intent(getApplicationContext(), RideInfo.class);
                 startActivity(i);
             }
         });
